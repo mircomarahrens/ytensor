@@ -1,0 +1,21 @@
+[project]
+name = "ytensor"
+version = "0.1.0"
+description = "A library for multi-dimensional objects, i.e. tensors."
+authors = [
+    {name = "Mirco Marahrens",email = "mirco.marahrens@googlemail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+cmake = "^3.31.4"
+pre-commit = "^4.1.0"
+
